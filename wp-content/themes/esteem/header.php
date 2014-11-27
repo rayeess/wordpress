@@ -112,12 +112,7 @@ wp_head();
 	   		<?php }
 		   	if( !( is_front_page()) ) { ?>
 				<section class="page-title-bar clearfix">
-					<div class="inner-wrap">
-						<?php if( '' != esteem_header_title() ) { ?>
-							<div class="page-title-wrap"><h1><?php echo esteem_header_title(); ?></h1></div>
-						<?php } ?>
-						<?php if( function_exists( 'esteem_breadcrumb' ) ) { esteem_breadcrumb(); } ?>
-					</div>
+					
 				</section>
 			<?php } ?>
 		</header><!-- #masthead -->

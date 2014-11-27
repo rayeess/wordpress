@@ -54,3 +54,9 @@ img.desaturate {
 	margin-left: 40px;
 }
 
+.page-title-bar {
+    border-bottom: 0 solid rgba(255, 255, 255, 0.8);
+    border-top: 0 solid rgba(255, 255, 255, 0.8);
+    padding: 1px;
+}
+
