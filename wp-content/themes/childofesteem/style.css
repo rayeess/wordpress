@@ -1,0 +1,56 @@
+/*
+ Theme Name:   Esteem Child Theme
+ Theme URI:    http://www.rayees.co.uk/
+ Description:  An Esteem child theme 
+ Author:       Rayees
+ Author URI:   http://www.rayees.co.uk
+ Template:     esteem
+ Version:      1.1.5
+*/
+
+@import url("../esteem/style.css");
+
+.header-logo-image {
+	padding-top:15px;
+}
+
+.social {
+	margin-top: -20px;
+	margin-left: 760px;
+}
+
+.img-social {
+	height:30px;
+	max-width:35px;
+	margin-top: -5px;
+}
+
+img.desaturate { 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.service-border {
+  border-top-left-radius:0;
+  border-top-right-radius:0;
+}
+
+.tg-one-third {
+    width: 48%;
+}
+
+.contact-side {
+    padding-top: 70px;
+}
+
+.contact-info {
+	color:#800080;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contact-image {
+	margin-left: 40px;
+}
+
