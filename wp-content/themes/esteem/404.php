@@ -27,7 +27,7 @@
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-	<?php esteem_sidebar_select(); ?>
+	<?php //esteem_sidebar_select(); ?>
 
 	<?php do_action( 'esteem_after_body_content' ); ?>
 
