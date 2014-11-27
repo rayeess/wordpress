@@ -32,8 +32,8 @@ img.desaturate {
 }
 
 .service-border {
-  border-top-left-radius:0;
-  border-top-right-radius:0;
+  /*border-top-left-radius:0;
+  border-top-right-radius:0;*/
 }
 
 .tg-one-third {
@@ -41,7 +41,7 @@ img.desaturate {
 }
 
 .contact-side {
-    padding-top: 70px;
+    padding-top: 98px;
 }
 
 .contact-info {
