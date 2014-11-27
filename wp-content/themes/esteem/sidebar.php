@@ -28,6 +28,7 @@
 			</aside>
 			<aside>
 				<div>
+					<!--Testing-->
 					<p class="contact-info">p_rayees@hotmail.co.uk</p>
 				</div>
 			</aside>
