@@ -10,6 +10,16 @@
 
 @import url("../esteem/style.css");
 
+.grow {
+    font-size: 35px;
+    -webkit-transition: font-size 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 0.5s;
+}
+
+.grow:hover {
+    font-size: 40px;
+}
+
 .header-logo-image {
 	padding-top:15px;
 }
@@ -29,6 +39,12 @@ img.desaturate {
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	filter: grayscale(100%);
+}
+
+img.desaturate:hover { 
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
 .service-border {
@@ -59,4 +75,14 @@ img.desaturate {
     border-top: 0 solid rgba(255, 255, 255, 0.8);
     padding: 1px;
 }
+
+.rb-resume-block .rb-experience .rb-section-title {
+	color:#800080;
+}
+
+.rb-experience-rating {
+	color:#800080;
+}
+
+
 

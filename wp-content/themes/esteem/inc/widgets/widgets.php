@@ -190,7 +190,7 @@ class esteem_service_widget extends WP_Widget {
 									//$values = get_post_custom( $post->ID );  
 									$esteem_icon = isset( $esteem_icon ) ? esc_attr( $esteem_icon ) : '';
 									?>
-									<i class="<?php echo esc_html( $esteem_icon ); ?>"></i>
+									<i class="<?php echo esc_html( $esteem_icon ); ?> grow"></i>
 								</div><!-- service-image-wrap" -->
 							</div><!-- service-border -->
 						<?php } ?>

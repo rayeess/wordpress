@@ -24,7 +24,7 @@
 				<aside class="service-border">
 					<a href="mailto:p_rayees@hotmail.co.uk">
 						<div class="service-image-wrap contact-image">
-							<i class="icon-envelope"></i>
+							<i class="icon-envelope grow"></i>
 						</div><!-- service-image-wrap" -->
 					</a>
 				</aside>
@@ -36,7 +36,7 @@
 			</br>
 				<aside class="service-border">
 					<div class="service-image-wrap contact-image">
-						<i class="icon-phone"></i>
+						<i class="icon-phone grow"></i>
 					</div><!-- service-image-wrap" -->
 				</aside>
 				<aside>
