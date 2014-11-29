@@ -20,10 +20,6 @@
     font-size: 40px;
 }
 
-.header-logo-image {
-	padding-top:15px;
-}
-
 .social {
 	margin-top: -20px;
 	margin-left: 760px;
@@ -84,5 +80,13 @@ img.desaturate:hover {
 	color:#800080;
 }
 
+.header-logo-image img {
+	padding-top:15px;
+    opacity: 0.8;
+}
+
+.header-logo-image img:hover {
+    opacity: 1;
+}
 
 
