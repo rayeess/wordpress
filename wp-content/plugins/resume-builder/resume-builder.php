@@ -309,7 +309,7 @@ function rb_render_resume_intro($section, $output = true) {
 					foreach ($section['sectionbuttons'] as $button) {
 						$button_class = ($button['type'] == 'filled') ? '' : 'rb-btn-white';
 						$button_label = ($button['type'] == 'filled') ? $button['label'] : $button['label'];
-						echo '<a class="rb-btn ' . $button_class . '" href="' . $button['link'] . '">' . $button_label . '</a>';
+						echo '<a class="rb-btn ' . $button_class . '" href="' . $button['link'] . '" target="_blank">' . $button_label . '</a>';
 					}
 				echo '</div>';
 			}
