@@ -11,7 +11,15 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php do_action( 'esteem_before_post_content' ); ?>
 	<div class="entry-content clearfix">
-		<?php the_content(); ?>
+		<?php $title = get_the_title(); ?>
+		<?php if ($title == "Portfolio") {
+			include "/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/childofesteem/portfolio.php";
+		} else {
+			the_content();
+		}
+		?>
+
+		
 		<?php
 			wp_link_pages( array( 
 			'before'            => '<div style="clear: both;"></div><div class="pagination clearfix">'.__( 'Pages:', 'esteem' ),
