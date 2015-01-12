@@ -172,7 +172,7 @@ class esteem_service_widget extends WP_Widget {
 					elseif ($j == 1) {
 						$page_title = "Who I am";
 						$service_class = "tg-one-third";
-						$description = "Hello, This is Testing in progress for the first service. Is it working or not? Oh, I am glad it is working. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.";
+						$description = "I am an extremely hard working individual who enjoys coding to develop efficient and excellent applications that would make a positive impact in peoples’ lives.";
 					}
 					elseif ($j == 2) {
 						$page_title = "What I Do";
@@ -194,9 +194,11 @@ class esteem_service_widget extends WP_Widget {
 								</div><!-- service-image-wrap" -->
 							</div><!-- service-border -->
 						<?php } ?>
-						<h3 class="service-title"><a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>"><?php echo $page_title; ?></a></h3>
+						<h3 class="service-title"><a title="<?php echo $page_title; ?>"><?php echo $page_title; ?></a></h3>
+						<!--title="<?php the_title_attribute(); ?>"-->
+						<!--href="<?php the_permalink(); ?>"-->
 						<p><?php echo $description;?></p>
-						<a class="read-more" title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>"><?php _e( 'Read more','esteem' ); ?></a>					
+						<!--<a class="read-more" title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>"><?php _e( 'Read more','esteem' ); ?></a>-->					
 					</div><!-- .tg-one-third -->
 					<?php $j++; ?>					
 				<?php endwhile;

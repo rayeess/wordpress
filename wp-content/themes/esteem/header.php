@@ -68,6 +68,7 @@ wp_head();
 									}
 									else {
 											wp_page_menu();
+
 									}
 								?>
 							</div><!-- .nav-menu -->

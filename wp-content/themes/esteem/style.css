@@ -110,6 +110,7 @@ a img {
 }
 .clearfix {
 	display: block;
+	color: black;
 }
 /* close commented backslash hack */
 
@@ -794,7 +795,7 @@ body {
 	padding: 12px;
 	display: inline-block;
 	max-width: 40%;
-	color: #777777;
+	color: #515151;
 }
 .slider-wrap {
 	position: relative;
@@ -1013,7 +1014,7 @@ body {
 }
 .widget ul li a:before{
 	font-family: fontawesome;
-	content: "\f105";
+	/* content: "\f105"; */
 	padding-right: 5px;
 }
 .widget ul li a:hover:before {
@@ -1427,7 +1428,7 @@ body {
 }
 #site-generator {
 	color: #909294;
-	border-top: 1px solid #52585b;
+	/*border-top: 1px solid #52585b;*/
 	padding: 20px 0 20px;
 }
 #site-generator a {
