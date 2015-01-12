@@ -177,7 +177,7 @@ class esteem_service_widget extends WP_Widget {
 					elseif ($j == 2) {
 						$page_title = "What I Do";
 						$service_class = "tg-one-third tg-one-third-last";
-						$description = "Hello, This is Testing in progress for the second service. Is it working or not?. Yes, It is working, and therefore I can start cracking on! Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.";
+						$description = "Developing Web Applications gives me a sense of purpose. I am experienced with several Web Development tools that are necessary to build excellent Web Applications to its maximum potential with no errors.";
 					}
 
 					?>
