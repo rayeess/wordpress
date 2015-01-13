@@ -177,7 +177,7 @@ class esteem_service_widget extends WP_Widget {
 					elseif ($j == 2) {
 						$page_title = "What I Do";
 						$service_class = "tg-one-third tg-one-third-last";
-						$description = "Developing Web Applications gives me a sense of purpose. I am experienced with several Web Development tools that are necessary to build excellent Web Applications to its maximum potential with no errors.";
+						$description = "Developing Web Applications gives me a sense of purpose. I am experienced with several Web Development tools that are necessary to build excellent Web Applications.";
 					}
 
 					?>

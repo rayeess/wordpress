@@ -20,9 +20,9 @@
 				<a href="https://www.linkedin.com/pub/rayees-saidalavi/9b/746/8b5" target="_blank">
 					<img class="img-social desaturate" src="http://localhost/wordpress/wp-content/themes/childofesteem/in-logo.png">
 				</a>
-				<a href="https://www.facebook.com/rayees.sayyed" target="_blank">
+				<!--<a href="https://www.facebook.com/rayees.sayyed" target="_blank">
 					<img class="img-social desaturate" src="http://localhost/wordpress/wp-content/themes/childofesteem/facebook-logo.png">
-				</a>
+				</a>-->
 				<a href="https://twitter.com/prez_ras" target="_blank">
 					<img class="img-social desaturate" src="http://localhost/wordpress/wp-content/themes/childofesteem/twitter-logo.png">
 				</a>

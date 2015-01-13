@@ -33,7 +33,7 @@
 
 .social {
 	margin-top: -20px;
-	margin-left: 760px;
+	float: right;
 }
 
 .img-social {
@@ -76,7 +76,7 @@ img.desaturate:hover {
 }
 
 .fancyfix {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 div.wpcf7 {
@@ -142,11 +142,7 @@ div.wpcf7 {
   margin-left:325px;
 }
 
-
-
-
-
-portfolio {
+.portfolio {
     clear:both;
     overflow:hidden;
     font-size:16px;
@@ -170,7 +166,6 @@ portfolio {
     color:#b2aaa4;
     -webkit-transition:all 0.2s ease;
     -moz-transition:all 0.2s ease;
-    background-position:320px 50%;
     background-repeat:no-repeat;
     text-decoration: none;
 }
@@ -193,32 +188,41 @@ portfolio {
     width:336px;
     line-height:1.5;
 }
-.portfolio-box:hover {
-    background-position:200px 50%;
+#p-e4u {
+    background-image:url(http://localhost/wordpress/wp-content/uploads/e4u_p.png);
+    background-position: 395px -14px;
+    background-size: 70% auto;
 }
-#p-diw {
-    background-image:url(http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-8/images/css-tricks.png);
-    background-position:455px -1288px;
-}
-#p-diw:hover {
+#p-e4u:hover {
     background-color:#0A6868;
-    background-position:345px -1288px;
+    background-position: 270px -14px;
+    background-size: 70% auto;
 }
-#p-qod {
-    background-image:url(http://cdn.css-tricks.com/wp-content/themes/CSS-Tricks-8/images/css-tricks.png);
-    background-position:455px -1448px;
+#p-oww {
+    background-image:url(http://localhost/wordpress/wp-content/uploads/oww.png);
+    background-position: 395px -21px;
+    background-size: 72% auto;
 }
-#p-qod:hover {
+#p-oww:hover {
     background-color:#C9A958;
-    background-position:345px -1448px;
+    background-position: 272px -21px;
+    background-size: 72% auto;
+}
+#p-sho {
+    background-image:url(http://localhost/wordpress/wp-content/uploads/url_s.png);
+    background-position: 385px 8px;
+    background-size: 70% auto;
+}
+#p-sho:hover {
+    background-color:#333333;
+    background-position: 270px 8px;
+    background-size: 70% auto;
 }
 /*
 #p-qod:hover p {
     color:#adbde3;
 }
 */
-
-
 
 .default-button {
     border: 1px solid #c1c1c2;
